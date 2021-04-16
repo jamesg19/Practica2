@@ -26,7 +26,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/basico.js",
+              "src/assets/prueba.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -89,7 +92,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/basico.js",
+              "src/assets/prueba.js"
+            ]
           }
         },
         "lint": {

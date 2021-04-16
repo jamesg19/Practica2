@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+declare  var basico;
+
 
 @Component({
   selector: 'app-root',

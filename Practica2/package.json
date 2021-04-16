@@ -9,6 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+
   "private": true,
   "dependencies": {
     "@angular/animations": "~11.2.9",
@@ -41,5 +42,9 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~4.1.5"
+  },
+  "browser": {
+    "fs": false,
+    "path": false
   }
 }
