@@ -1,5 +1,5 @@
 //var parser = require('./basico');
-var parser = require("./basico").parser;
+var parser = require("./basico");
 
 function compilar(){
   //leo el text area donde esta el la gramatica ingresada
@@ -7,10 +7,10 @@ function compilar(){
   const respuesta = document.getElementById('respuesta');
   //envio la entrada al parser
   try {
-     parser=parser(entr.value);
+     parser=parser.parse(entr.value);
     
   } catch (e) {
-    //alert('error :(');
+    alert('error :(');
     respuesta.value= e; 
     console.error(e);
     return;
